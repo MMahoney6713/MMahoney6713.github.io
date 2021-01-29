@@ -2477,7 +2477,7 @@ button,
   @media screen and (max-width: 736px) {
 
     .spotlight.style1 .content {
-      padding: 2.5rem 2rem 0.5rem 2rem ;
+      padding: 2.5rem 2rem 0 2rem ;
     }
 
   }
@@ -2512,6 +2512,9 @@ button,
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
   }
+  .spotlight.style1.orient-right .content {
+    padding: 0 0 0 6rem;
+  }
 
 @media screen and (max-width: 736px) and (orientation: portrait) {
 
@@ -2520,6 +2523,9 @@ button,
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+  }
+  .spotlight.style1.orient-right .content {
+    padding: 2.5rem 2rem 0 2rem ;
   }
 
 }
