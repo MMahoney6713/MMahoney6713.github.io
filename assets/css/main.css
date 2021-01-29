@@ -2551,3 +2551,18 @@ button,
     -ms-object-position: right;
     object-position: right;
   }
+
+
+  /* Resume */
+#resume {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  border-bottom: solid 5px #23337e;
+  padding: 6em 0 1em 0;
+  width: 50%;
+  position: relative; }
+  #resume .image {
+    width: 70%;
+  }
