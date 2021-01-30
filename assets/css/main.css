@@ -1211,7 +1211,7 @@ input[type="radio"] + label:before {
     font-family: 'Font Awesome 5 Brands'; }
 
 /* Fab Icon */
-.fab {
+/* .fab {
   text-decoration: none;
   border-bottom: none;
   position: relative; }
@@ -1233,7 +1233,7 @@ input[type="radio"] + label:before {
   .fab.solid:before {
     font-weight: 900; }
   .fab.brands:before {
-    font-family: 'Font Awesome 5 Brands'; }
+    font-family: 'Font Awesome 5 Brands'; } */
 
 /* Image */
 .image {
