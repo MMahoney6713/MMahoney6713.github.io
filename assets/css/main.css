@@ -1235,6 +1235,11 @@ input[type="radio"] + label:before {
   .fab.brands:before {
     font-family: 'Font Awesome 5 Brands'; } */
 
+.cleared {
+  clear:both;
+}
+
+    
 /* Image */
 .image {
   border-radius: 0.375em;
@@ -1245,7 +1250,8 @@ input[type="radio"] + label:before {
     border-radius: 0.375em;
     display: block; }
   .image.left, .image.right {
-    max-width: 40%; }
+    max-width: 40%; 
+    height: auto; }
     .image.left img, .image.right img {
       width: 100%; }
   .image.left {
